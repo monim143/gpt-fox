@@ -1,0 +1,141 @@
+// @media (max-width:1200px) and (min-width:992px) 
+@media (max-width:1250px) {
+    .header {
+        top: 20px;
+        border-radius: 0;
+        background-color: rgba(0, 0, 0, .6);
+
+        .navbar-brand {
+            border-right: 0;
+        }
+
+        .navbar-nav .nav-item {
+            >.nav-link {
+                font-size: 14px;
+                margin: 0 3px;
+            }
+        }
+
+        .navbar-nav.navbar-right-panel {
+            .nav-item>.nav-link {
+                padding: 8px 15px;
+            }
+        }
+    }
+
+    .select2-container--default .select2-selection--single {
+        height: 36px;
+        width: 85px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        line-height: 26px;
+        padding-right: 40px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        height: 10px;
+    }
+}
+
+
+// @media (max-width:992px)
+@media (max-width:992px) {
+    .navbar-nav:not(.navbar-right-panel) .nav-item {
+        >.nav-link {
+            text-align: center;
+
+            &:hover {
+                color: var(--main-color);
+            }
+        }
+
+        .dropdown-menu {
+            text-align: center;
+        }
+
+    }
+
+    .navbar-nav.navbar-right-panel {
+        .nav-item>.nav-link {
+            margin-bottom: 10px;
+        }
+    }
+
+    .banner {
+        text-align: center;
+
+        .banner-content {
+            padding: 150px 0;
+
+            .banner-content-title {
+                font-size: 36px;
+            }
+        }
+    }
+
+    .section-head .section-title {
+        font-size: 30px;
+    }
+
+    .about-gaming-platform-content {
+        text-align: center !important;
+        margin-bottom: 30px;
+
+        .section-head {
+            text-align: center !important;
+        }
+    }
+
+    .game-trailer .game-trailer-carousel-item>img {
+        height: calc(15vw + 175px);
+    }
+}
+
+
+
+// @media (max-width:768px)
+@media (max-width:768px) {
+    .our-winner .winner-list-grids {
+        display: block;
+
+        .winner-list-grid-item {
+            margin-bottom: 25px;
+            border-radius: 15px !important;
+            overflow: hidden;
+
+            .winner-list-grid-title {
+                border-radius: 0px !important;
+            }
+        }
+    }
+
+    .popular-games {
+        padding-bottom: 50px;
+    }
+
+    .gpt-fox-games {
+        padding-top: 50px;
+    }
+
+    .in-house-game,
+    .game-trailer,
+    .gaming-platform {
+        padding: 50px 0;
+    }
+
+    .gaming-platform {
+        margin-top: -1px;
+    }
+
+    .footer,
+    .blog {
+        padding-top: 0px;
+    }
+
+    .page-banner {
+        .page-banner-inner {
+            height: 350px;
+        }
+    }
+}
